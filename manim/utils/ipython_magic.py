@@ -18,7 +18,7 @@ try:
         line_cell_magic,
         needs_local_scope,
     )
-    from IPython.display import display, Image, Video
+    from IPython.core.display import display, Image, Video
 except ImportError:
     pass
 else:
